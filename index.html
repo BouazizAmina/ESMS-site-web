@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="css/style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>JOE</title>
+</head>
+<script>
+    $(function() {
+        $('.logo').css("opacity", "0");
+
+        $(window).scroll(function() {
+            if ($(window).scrollTop()) {
+                $('nav').css("background", "white");
+                $('nav').css("box-shadow", "0px 3px 20px lightgrey");
+                $('nav').css("z-index", "7");
+                $('nav').css("height", "7vh");
+                $('.logo').css("opacity", "1");
+
+            } else {
+                $('nav').css("background", "none");
+                $('nav').css("box-shadow", "0px 0px 0px black");
+                $('nav').css("height", "9vh");
+                $('.logo').css("opacity", "0");
+
+
+            }
+
+
+
+        })
+    })
+</script>
+
+
+<body>
+    <section id="home">
+        <div class="logo">
+            <span><b><i>JOE</i></b></span>
+        </div>
+        <img src="images/logo.png" alt="">
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!--fin de la section home et debut de la section about-->
+
+    <section id="about">
+        <img src="images/about.png" alt="">
+        <div class="textAbout">
+            <p>
+                <b>JOE</b> stands for <b>J</b>ourney <b>O</b>f <b>E</b>nigma, it is a big competetion which brings students from differents clubs and universities. It takes place in 3 days where challenges about computer science in general will be launched
+                between the differents condidates.The idea of this event is to guide the condidates to the right path throught puzzles that they must solve in a limited time by respecting well defined rules. This event has several objectives : learning,
+                skills developpement and training with the spirit of fun and joy.
+
+            </p>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <!--fin de la section about et debut de la section how to play-->
+
+
+    <section id="HowToPlay">
+        <img src="images/howtoplay.png" alt="">
+        <div class="textp">
+            <p>
+                There will be 12 teams where each one is made of 8 members, and it will be preferable to have people with diverse skills since the challenges will relate to several fields.The challenges are 5 with different degree of dificulties and durations , obviously
+                an X challenges is more difficult than Y .for qualifying to the next challenges the teams must gain a certain number of points. The last challenge is the biggest because it is about creating a real life project like a web application thing
+                that requires a lot of work and time , this challenge will be between the last four teams wich will succeed in reaching the final phase of competition.
+            </p>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!--fin de la section how to play et debut de la section start now-->
+
+    <section id="StartNow" ">
+        <img src="images/start.png " alt=" ">
+        <a href="challenges.html ">START NOW</a>
+    </section>
+
+
+
+
+    
+
+    <nav>
+
+         <ul>
+             <li><a href="#home ">Home</a></li>
+             <li><a href="#about ">About</a></li>
+             <li><a href="#HowToPlay ">How To Play</a></li>
+             <li><a href="challenges.html ">Start Now</a></li>
+
+        </ul>
+    </nav>
+    <footer>
+           <b> Copyright &copy; Club Scientifique de l'ESI realisé par Abdelhafid Boussekine et Nouredine LAMAMRA</b>
+    </footer>
+</body>
+
+</html>

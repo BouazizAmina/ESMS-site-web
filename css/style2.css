@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.classement {
+    margin-top: 80px;
+    display: flex;
+    width: 120px;
+    text-align: center;
+    position: fixed;
+    font-size: 12px;
+    /* margin-left: 10px;*/
+    margin-left: -90px;
+}
+
+.eqp {
+    display: grid;
+    padding: 6px;
+}
+
+.eqp span {
+    font-size: 10px;
+    padding: 6px;
+    color: white;
+    background: linear-gradient(to right, #7303c0, #ec38bc);
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px #ec38bc;
+}
+
+.nb {
+    display: grid;
+    padding: 11px;
+}
+
+.nb span {
+    padding: 9px;
+    color: white;
+    background: linear-gradient(to right, #7303c0, #ec38bc);
+    border-radius: 18px;
+    box-shadow: 0px 3px 10px #ec38bc;
+}
+
+section {
+    /*height: 100vh;*/
+    height: 900px;
+    width: 100%;
+    background-color: rgb(21, 4, 37);
+    margin-top: -200px;
+}
+
+section#one {
+    margin-top: -200px;
+    background: url(../images/design.jpg) no-repeat;
+	background-size:cover;
+}
+
+section#two {
+    background: url(../images/abstract-2560x1440-3d-colorful-skull-8k-21283.jpg) no-repeat;
+}
+
+section#three {
+    background: url(../images/poo1.png) no-repeat;
+    background-size:contain;
+}
+
+
+
+section#four {
+    background: url(../images/puzzle-1920x1080-3d-red-4k-19577.jpg);
+}
+
+.contenu {
+    width: 45%;
+    height: 52%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 120px;
+    position: relative;
+    top: 200px;
+    font-size: 17px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px silver;
+}
+
+.contenu h1 {
+    color: rgb(67, 186, 255);
+}
+
+.contenu a {
+    text-decoration: none;
+    padding: 12px;
+    position: relative;
+    top: 20px;
+    background-color: white;
+    color: rgb(67, 186, 255);
+    border-radius: 7px;
+    border: solid 1.5px rgb(67, 186, 255);
+    transition: 1s;
+}
+
+.contenu a:hover {
+    background-color: rgb(67, 186, 255);
+    color: white;
+    box-shadow: 0px 5px 15px #B2FEFA;
+    border: none;
+}
